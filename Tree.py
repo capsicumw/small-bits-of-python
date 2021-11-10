@@ -5,14 +5,14 @@ iSize = input( "Enter size of tree[recommend 6 to 64]:" )
 
 #check input is rational
 count = 0
-while count < 2 :
+while True :
     if float( iSize ) < 0 :
         count = count + 1
         #print (count)
         if count == 2 :
-            print( "\n¡Why you no Read?!\n")
+            print( "\n¡Why you no read?!\n")
             sys.exit( "I have better things to do. Go away now!" )
-        print( "\nHow can a tree have negative size?")
+        print( "\nHow can a tree have negative size?\n")
         iSize = input( "Enter size of tree[recommend 6 to 64]:" )
     else:
         break
