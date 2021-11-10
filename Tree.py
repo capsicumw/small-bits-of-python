@@ -36,3 +36,4 @@ for cv in range( stemLen ):
     y = "|" * stemWidth
     x = " " * int( ( size * 0.5 - stemWidth * 0.5) )
     print( x + y )
+##just appending a comment as a test
